@@ -1,1 +1,1 @@
-## Parallel Megre Sort
+## Parallel Megre Sort  using Multithreading
