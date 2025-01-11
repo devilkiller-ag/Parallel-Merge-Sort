@@ -2,11 +2,12 @@ CXX = g++
 CXXFLAGS = -std=c++17 -g -Wall -I. -Isrc/app/sorting
 
 
-MAIN_TARGET = parallel_merge_sort
+MAIN_TARGET = merge_sort
 
 
 MAIN_SRC = src/app/main.cpp \
-           src/app/sorting/mergeSort.cpp
+           src/app/sorting/mergeSort.cpp \
+		   src/app/sorting/parallelMergeSort.cpp
 
 
 MAIN_OBJ = $(MAIN_SRC:.cpp=.o)
